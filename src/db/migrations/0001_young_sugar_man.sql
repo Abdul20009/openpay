@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "webhook_events_provider_type_event_uidx" ON "webhook_events" USING btree ("provider","type","event_id");
