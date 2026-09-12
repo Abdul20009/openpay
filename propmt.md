@@ -1,0 +1,1 @@
+Receiver is running and the Paystack webhook URL is configured. Proceed with the real sandbox callback test.
