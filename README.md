@@ -154,7 +154,7 @@ reference you passed, or a generated one). `providerRef` is the provider's
 own identifier for the same payment, and it differs per provider:
 
 - Paystack: `providerRef` echoes your reference.
-- Flutterwave: `providerRef` is your `tx_ref` at creation, then the numeric
+- Flutterwave: `providerRef` is the provider's `flw_ref` at creation (falls back to your `tx_ref`), then the numeric
   transaction id after verification.
 - Bachs: `providerRef` is the `checkout_id`.
 
