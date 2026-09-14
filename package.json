@@ -1,6 +1,6 @@
 {
   "name": "openpay-ng",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenPay NG — unified SDK for Nigerian payment providers (Paystack, Flutterwave, Bachs)",
   "type": "module",
   "main": "./dist/index.js",
